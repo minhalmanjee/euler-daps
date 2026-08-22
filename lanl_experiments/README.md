@@ -45,5 +45,10 @@ To run experiments on the LANL data set, use `run.py`. Tests used in the paper a
         Learning rate during training    
     --patience PATIENCE                         (default: 5)    
         The number of epochs with no improvement before training ends    
+    --cpu
+        Run on CPU. Skips CUDA layout checks. Use this when you do not have
+        (workers + 1) GPUs available. Example: `--cpu -w 1`
 
-Note: by default, this script uses ports 22032 and 22204 for RPC communication. 
+Note: by default, this script uses ports 22032 and 22204 for RPC communication.
+GPU mode expects GPUs `0..W-1` for workers and GPU `W` for the master
+(`-w 3` needs 4 GPUs). Prefer `--cpu` on single-GPU / CPU-only machines. 
