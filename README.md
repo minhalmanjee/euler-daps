@@ -74,7 +74,7 @@ done
 
 GCN+NONE: replace `-r GRU` with `-r NONE`.
 
-### CPU (corrected)
+### CPU
 
 Use **`--cpu`**. With `--cpu`, CUDA layout checks are skipped; keep `-w` modest (e.g. 1–3). Example:
 
