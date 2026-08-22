@@ -1,0 +1,19 @@
+# Modern Euler env (GPU). Legacy exact pins are in conda-specs.txt / requirements.txt
+# (those exports from 2023 no longer resolve on current channels).
+#
+# Create:  bash install_env.sh
+# Or:      conda env create -f environment.yml && conda activate euler
+#          bash install_env.sh --pip-only
+
+name: euler
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas>=1.4
+  - scikit-learn>=1.1
+  - scipy>=1.9
+  - numpy>=1.23
+  - joblib>=1.1
+  - tqdm>=4.64
+  - pip

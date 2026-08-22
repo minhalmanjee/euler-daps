@@ -1,0 +1,6 @@
+# LEGACY — exact conda export from 2023 (CPU PyTorch 1.13.1). Do NOT use with
+# `conda create --file` on current channels; solver will fail (missing builds).
+#
+# Use instead:
+#   bash Euler/install_env.sh
+#   conda activate euler
