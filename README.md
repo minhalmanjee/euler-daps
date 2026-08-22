@@ -1,9 +1,6 @@
-# Euler + DAPS
+# DAPS
 
-Code to reproduce **EULER** and **DAPS** (degree-aware post-scoring) results on **LANL** and **OpTC**.
-
-This package mirrors the research archive at
-`Research-Journal/2026/July/Euler`, with fixes for NumPy 2 (`np.long` → `np.int64`) and documented `--cpu` usage.
+Code to reproduce **DAPS** (degree-aware post-scoring) results on **LANL** and **OpTC**.
 
 ## Layout
 
