@@ -73,7 +73,7 @@ GCN+NONE: replace `-r GRU` with `-r NONE`.
 
 ### CPU
 
-Use **`--cpu`**. With `--cpu`, CUDA layout checks are skipped; keep `-w` modest (e.g. 1–3). Example:
+Use **`--cpu`**. With `--cpu`, CUDA layout checks are skipped. Example:
 
 ```bash
 cd lanl_experiments
