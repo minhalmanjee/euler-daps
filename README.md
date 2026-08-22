@@ -23,8 +23,8 @@ cd lanl_experiments
 
 ### Data
 
-1. **LANL**: place `auth.txt` and `redteam.txt` under `data/datasets/lanl/`, then run `python -m loaders.split` (see `lanl_experiments/README.md` and path constants in `loaders/`).
-2. **OpTC**: place flow CSV under `data/datasets/optc/cybergfm/`, then run `python -m loaders.split_optc_flow`.
+1. **LANL: https://csr.lanl.gov/data/cyber1/**: place `auth.txt` and `redteam.txt` under `data/datasets/lanl/`, then run `python -m loaders.split` (see `lanl_experiments/README.md` and path constants in `loaders/`).
+2. **OpTC:: https://github.com/cybermonic/CyberGFM/tree/main/optc_preprocess**: place flow CSV under `data/datasets/optc/cybergfm/`, then run `python -m loaders.split_optc_flow`.
 
 Raw datasets are **not** included.
 
